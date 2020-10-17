@@ -6,7 +6,7 @@
     "email": "Kevin.Rispoli@yahoo.com",
     "phone": "941-468-8527",
     "website": "https://Kevin.rispoli.github.io",
-    "summary": "I am currently changing carrers shifting from meat cutter at Publix Supermarkets to Web=Development currently taking part of FreecodeCamp my requirements should be complete in  in Spring, 2021.",
+    "summary": "I am currently changing carrers shifting from meat cutter at Publix Supermarkets, to Web=Development by taking part of FreecodeCamp my requirements should be complete in  in Spring, 2021.",
     "location": {
       "address": "",
       "postalCode": "34223",
@@ -27,31 +27,31 @@
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "KevinRispoli222",
+        "url": "http://twitter.com/KevinRispoli222"
       },
       {
         "network": "instagram",
-        "username": "molly",
+        "username": "",
         "url": "http://instagram.com/changeme"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Art",
       "keywords": [
         "Arduino",
         "TI MSP430"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Gold recovery",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Meditation",
       "keywords": [
       ]
     }
