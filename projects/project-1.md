@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Tribute Page
+title: "Tribute-Page"
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
 date: 2020-10-21
