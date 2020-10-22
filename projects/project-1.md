@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/PR1.jpg
 title: Tribute Page 
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
