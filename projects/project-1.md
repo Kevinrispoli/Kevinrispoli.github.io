@@ -11,7 +11,7 @@ labels:
  CSS
 ---
 
-You can learn more at the [Preview Html Project 1 at this Location](https://github.com/Kevinrispoli/Kevinrispoli.github.io/blob/master/images/index.html).
+You can learn more at the [Preview Html Project 1 at this Location](https://github.com/Kevinrispoli/Kevinrispoli.github.io/images/index.html).
 
 
 
