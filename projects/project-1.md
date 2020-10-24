@@ -9,10 +9,61 @@ date: 2020-10-21
 labels:
  HTML5
  CSS
+ Markdown
+ Jekyl
 ---
-PROJECT 1 TRIBUTE PAGE SCROLL TO THE BOTTOM TO PREVIEW IN YOUR BROWSER!
+*_A project using responsive web design to show the use of HTML and CSS using Markdown with Jekyl to display._* 
 
- [Preview Rendered Code Project 1 at this Location] (https://htmlpreview.github.io/?https://github.com/Kevinrispoli/Kevinrispoli.github.io/blob/master/images/index.html).
+ [Preview Rendered Code Project 1 at this Location] (https://htmlpreview.github.io/?https://github.com/Kevinrispoli/Kevinrispoli.github.io/blob/master/images/            index.html).
+ '''HTML
+ <!DOCTYPE html>
+ <html lang="en" >
+ <head>
+  <meta charset="UTF-8">
+  <title>CodePen - Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="./style.css">
 
+ </head>
+ <body>
+ <!-- partial:index.partial.html -->
+ <main id=main>
+
+ <h1 id="title">Terrance Mckenna</h1>
+ <p>Author and Free Thinker</p>
+ <figure id="img-div">
+ <img
+  id="image"
+ src="http://www.wakingtimes.com/wp-content/uploads/2017/05/Cosmos-Terence-McKenna.jpg" 
+    alt= "Terrance Mckenna Profile Picture"
+  />
+   <figcaption id="img-caption">
+   <cite>  "The Cost of Sanity in this Society is Certainly a level of Alienation" Terrance Mckenna
+     </cite>  </figcaption>
+   <section id="tribute-info">
+     <h3 id="headline"> Terrance Mckenna researched many topics here are a few.</h3>
+     <ul>
+       <li>Language</li>
+       <li>Philosophy</li>
+       <li>Mysticism</li>
+       <li>Culture</li>
+       <li>Technology</li>
+       <li>Ethnobotany</li>
+       <blockqkuote
+                    cite=https://www.insightstate.com/quotes/terence-mckenna-quotes/#:~:text=50%20Terence%20Mckenna%20Quotes%20About%20Love%2C%20Culture%2C%20Dreams%2C,you%20take%20off%20your%20clothes.%20More%20items...%20>
+         <p> Terrance Mckenna had many radical ideas and concepts.<cite>“My technique is don’t believe anything. If you believe in something, you are automatically  precluded from believing its opposite.”</cite> </p>
+         </blockquote>
+       <h3>Pleae spend the time to open yourself to new ideas and concepts by reseaching this philosopher just click this
+          <a
+            id="tribute-link"
+            href="https://en.wikipedia.org/wiki/Terence_McKenna" target="_blank"
+            >Wikipedia Page</a>
+       </h3>
+       </main>
+ <!-- partial -->
+   <script  src="./script.js"></script>
+
+ </body>
+ </html>
+'''
 
 
