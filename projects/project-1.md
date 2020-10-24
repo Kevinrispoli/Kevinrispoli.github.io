@@ -13,9 +13,8 @@ labels:
  Jekyl
 ---
 *_A project using responsive web design to show the use of HTML and CSS using Markdown with Jekyl to display._* 
-
  [Preview Rendered Code Project 1 at this Location] (https://htmlpreview.github.io/?https://github.com/Kevinrispoli/Kevinrispoli.github.io/blob/master/images/            index.html).
- '''HTML
+ {% highlight html %}
  <!DOCTYPE html>
  <html lang="en" >
  <head>
@@ -64,6 +63,6 @@ labels:
 
  </body>
  </html>
-'''
+{% endhighlight %}
 
 
