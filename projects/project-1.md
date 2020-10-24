@@ -19,7 +19,7 @@ labels:
  <html lang="en" >
  <head>
   <meta charset="UTF-8">
-  <title>CodePen - Fork Me! FCC: Test Suite Template</title>
+  <title>TRIBUITE PAGE</title>
   <link rel="stylesheet" href="./style.css">
 
  </head>
@@ -64,5 +64,60 @@ labels:
  </body>
  </html>
 {% endhighlight %}
-
-
+_*CSS STYLE SHEET_*
+{% highlight css %}
+html{font-size:10px;}
+body{font-family: Arial, sans-serif;
+     font-size: 1.6rem;
+     line-height: 1.5rem;
+     text-align: center;
+     color: #333;
+     margin: 0;
+  
+}
+h1{ font-size: 4rem;
+    margin-bottom: 0;
+}
+@media (max-width: 460px; ){h1{
+        font-size: 3.5rem;
+  line-height: 1.2; }
+}
+  
+h2{font-size 3.2rem}
+a{color: #771e52;}
+#main { margin 30px 8px;
+         padding: 15px;
+          border-radius: 5 px;
+          background: #eee;
+           }
+@media (max-width: 460px ) { #main { margin: 0;}}
+img{ max-width: 100%;
+     display: block;
+      height: auto;
+      margin: 0 auto;
+  
+        }
+#img-div{
+  background:white;
+  padding: 10px;
+  margin: 0;
+}
+#img-caption {
+  margin 15px 0 5px 0;
+}
+@media(max-width: 460px){#img-caption{ font-size: 1.4rem}
+        }
+#headline{ margin 50px 0;
+            text-align: center;}
+ul{max-width: 550px 
+    margin: 0 auto 50px auto;
+     text-align: left; 
+      line-height: 1.6;}
+li{ margin 16px 0;}
+blockquote{
+  font-size: italic;
+  max-width: 545px;
+  margin:0 auto 50px auto;
+  text-align:left;
+}
+{% endhighlight %}
