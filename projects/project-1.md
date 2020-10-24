@@ -13,8 +13,9 @@ labels:
  Jekyl
 ---
  
- __A project using responsive web design to show the use of HTML and CSS using Markdown with Jekyl to display__
- [Preview Rendered Code Project 1 at this Location] (https://htmlpreview.github.io/?https://github.com/Kevinrispoli/Kevinrispoli.github.io/blob/master/images/            index.html).
+ __A project using responsive web design to show the use of HTML and CSS using Markdown with Jekyl to display__   
+<br>
+[Preview Rendered Code Project 1 at this Location] (https://htmlpreview.github.io/?https://github.com/Kevinrispoli/Kevinrispoli.github.io/blob/master/images/            index.html).
  {% highlight html %}
  <!DOCTYPE html>
  <html lang="en" >
