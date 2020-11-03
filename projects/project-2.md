@@ -2,17 +2,18 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Survey
+title: Survey Form
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
 date: 2015-12-15
 labels:
-  - Html
+  - Html5
   - Css
   - Jekyl
   - Markdown
-summary: A responsive web application for taking a survey!
+summary:__A responsive web application for taking a survey!__
 ---
+[Preview Rendered Code Project 1 at this Location](https://htmlpreview.github.io/?https://github.com/Kevinrispoli/Kevinrispoli.github.io/blob/master/images/index2.html.html),
 {% highlight html %}
 <div class="container">
   <header class="header">
