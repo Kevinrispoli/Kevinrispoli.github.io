@@ -13,7 +13,7 @@ labels:
   - Markdown
 summary: A responsive web application for taking a survey!
 ---
-
+{% highlight html %}
 <div class="container">
   <header class="header">
 		<link rel="stylesheet" type="text/css" href="style1.css">
@@ -199,3 +199,4 @@ summary: A responsive web application for taking a survey!
     </div>
   </form>
 </div>
+{% endhighlight %}
