@@ -6,8 +6,9 @@ title: Cotton
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
 date: 2014-04-12
+published: false
 labels:
-Published: False
+
   - Lisp
   - GitHub
 summary: A text adventure game I developed for ICS 313.
