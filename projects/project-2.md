@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/mushroom.jpg
 title: Survey Form Written With HTML and CSS
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
