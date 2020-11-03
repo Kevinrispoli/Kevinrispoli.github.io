@@ -2,24 +2,200 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Vacay
+title: Survey
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
 date: 2015-12-15
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Html
+  - Css
+  - Jekyl
+  - Markdown
+summary: A responsive web application for taking a survey!
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<div class="container">
+  <header class="header">
+		<link rel="stylesheet" type="text/css" href="style1.css">
+    <h1 id="title" class="text-center">Mushroom Selection For Cooking</h1>
+    <p id="description" class="description text-center">
+      Thank you for taking the time to fill out this Survey!
+    </p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+			type="name"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your Name"
+        required
+      />
+    </div>
+		    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email" 
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+			      <p>Would you recommend Mushrooms to cook with?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Definitely</label
+      >
+      <label>
+				<input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Maybe</label
+      >
+			<label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Not sure</label
+      >
+    </div>
+		    <div class="form-group">
+      <p>
+        What is your favorite mushroom to cook with?
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="challenges">Shitake</option>
+        <option value="projects">Portabello</option>
+        <option value="community">Oyster</option>
+        <option value="openSource">Reishi</option>
+				      </select>
+    </div>
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+    <div class="form-group">
+      <p>
+        How would you cook with them?
+        <span class="clue">(Check all that apply)</span>
+				</p>
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+      <label
+        ><input
+          name="prefer"
+          value="Chopped"
+          type="checkbox"
+          class="input-checkbox"
+					        />Chopped</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="Diced"
+          type="checkbox"
+          class="input-checkbox"
+					/>Diced</label
+					>
+      <label
+        ><input
+          name="prefer"
+          value="Whole"
+          type="checkbox"
+          class="input-checkbox"
+        />Whole</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Seasoned"
+					type="checkbox"    
+					class="input-checkbox"
+					/>Seasoned</label>
+      <label
+        ><input
+          name="prefer"
+          value="spicy"
+          type="checkbox"
+          class="input-checkbox"
+        />spicy</label
+      >
+      <label
+        ><input
+				name="prefer"
+				value="A small amount"
+          type="checkbox"
+          class="input-checkbox"
+        />A small amount</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="more than one dish"
+					type="checkbox"
+          class="input-checkbox"
+        />More than one dish</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Vitamin Rich"
+          type="checkbox"
+          class="input-checkbox"
+        />Vitamin Rich</label
+      >
+      
+			<label
+        ><input
+          name="prefer"
+          value="Flavorfull"
+          type="checkbox"
+          class="input-checkbox"
+        />Flavorfull</label
+				>
+				 <label
+        ><input
+          name="prefer"
+          value="Brand Name"
+          type="checkbox"
+          class="input-checkbox"
+        />Brand Name</label
+				>
+				      <label
+        ><input
+          name="prefer"
+          value="For Dinnerbv cc "
+          type="checkbox"
+          class="input-checkbox"
+        />For Dinner</label
+      >
+    </div>
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+    <div class="form-group">
+      <p>Any Recipes To Share?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+				Submit
+      </button>
+    </div>
+  </form>
+</div>
