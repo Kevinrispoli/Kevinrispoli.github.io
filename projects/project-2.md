@@ -5,7 +5,7 @@ image: images/mushroom.jpg
 title: Survey Form Written With HTML and CSS
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2020-11-3
 labels:
   - Html5
   - Css
