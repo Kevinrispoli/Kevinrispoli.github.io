@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: null
 type: project
 image: images/cotton-square.png
 title: Cotton
