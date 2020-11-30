@@ -1,7 +1,6 @@
 ---
 layout: project
 type: project
-published: false
 image: images/PR1.jpg
 title: Survey
 permalink: projects/Survey
