@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/PR1.jpg
+image: images/KR.png
 title: Survey
 permalink: projects/Survey
 # All dates must be YYYY-MM-DD format!
