@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: project
 type: project
 image: images/product.jpg
 title: Product Landing Page
