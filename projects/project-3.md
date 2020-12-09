@@ -1,7 +1,7 @@
 ---
 layout: null
 type: project
-image: images/cotton
+image: images/product
 title: Product Landing Page
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
