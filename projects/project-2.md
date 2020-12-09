@@ -5,7 +5,7 @@ image: images/PR1.jpg
 title: Survey Form Written With HTML and CSS
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
-date: 2020-11-3
+date: 2020-11-03
 labels:
   - Html5
   - Css
