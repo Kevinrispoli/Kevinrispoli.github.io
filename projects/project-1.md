@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/PR1.jpg
+image: images/PR1
 title: Tribute Page Written with HTML and Css
 permalink: projects/Tribute page
 # All dates must be YYYY-MM-DD format!
